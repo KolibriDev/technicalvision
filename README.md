@@ -1,6 +1,6 @@
 # Kolibri Tech Vision
 
-This is the web site where we describe the way do and aspire to do things when it comes to programming. To develop the site locally do this after you have checkout the repository:
+This is the web site where we describe the way do and aspire to do things when it comes to programming. To develop the site locally do this after you have checked out the repository:
 
 ```
 $ npm install
