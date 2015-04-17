@@ -6,7 +6,7 @@ This is the web site where we describe the way do and aspire to do things when i
 $ npm install
 $ gulp serve
 ```
-open http://localhost:8000` and you should see the site in all its glory ;)
+open ```http://localhost:8000``` and you should see the site in all its glory ;)
 
 After you are happy with your changes you can deploy them to the live site by doing this:
 
