@@ -12,3 +12,8 @@
 body {
   background-color: yellow;
 }
+
+.content {
+  margin: $spacing auto;
+  max-width: 1024px;
+}
