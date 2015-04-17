@@ -12,7 +12,8 @@
     "gulp-livereload": "^3.8.0",
     "gulp-sass": "^1.3.3",
     "gulp-util": "^3.0.4",
-    "gulp-watch": "^4.2.0"
+    "gulp-watch": "^4.2.0",
+    "kolibri-style": "git://github.com/KolibriDev/kolibri-style"
   },
   "devDependencies": {
     "del": "~1.1.1",

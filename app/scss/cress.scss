@@ -1,7 +1,14 @@
 
 @import
-  "../vendor/normalize-scss/normalize";
-
+  "../vendor/normalize-scss/normalize",
+  "../../node_modules/kolibri-style/cress/mixins/mixins",
+  "../../node_modules/kolibri-style/cress/variables",
+  "../../node_modules/kolibri-style/cress/functions",
+  "../../node_modules/kolibri-style/cress/grid",
+  "../../node_modules/kolibri-style/cress/keyframes";
+@import
+  "../../node_modules/kolibri-style/components/typography/base",
+  "../../node_modules/kolibri-style/components/typography/headings";
 body {
   background-color: yellow;
 }
