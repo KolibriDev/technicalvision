@@ -90,8 +90,6 @@ gulp.task('bundle', function() {
 });
 
 gulp.task('build', function(callback) {
-    env = 'prod';
-
     runSequence(['clean:dev', 'clean:dist'], ['imagemin', 'styles', 'copy', 'copyFonts'],
         ['bundle'], callback);
 });
@@ -114,6 +112,11 @@ gulp.task('webserver-dist', function() {
             livereload: false,
             open: true
         }));
+});
+
+gulp.task('deploy', function () {
+    return gulp.src('dist/**')
+        .pipe($.ghPages());
 });
 
 gulp.task('serve', function() {

@@ -6,3 +6,4 @@ test/temp
 test/scripts/
 .idea/
 *.sublime-workspace
+.publish/
